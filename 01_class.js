@@ -10,5 +10,15 @@ console.table([accountEmail, accountPassword, accountCity, accountState]); //for
 
 // Datatypes 
 
+"use strict"; //treat all javascript code as newer version
 
+// alert(4+4) we are using node js not browser
+
+let name = "haziq" //string
+let age = 18 //number
+let isLoggenIn = true //boolean 
+let state = null //null => standalone value / null type is  object 
+let date = new Date() //date
+let symbol = Symbol() //unique 
+// object 
 
