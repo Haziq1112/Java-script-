@@ -28,3 +28,33 @@ const person = {
  const myfunctiosn = function(){
     console.log('Haziq Ahmad ')
  }
+
+
+
+
+ /// Memoryes 
+
+ //Stack (primitive) , Heap (Non-Primitive) 
+
+//in stack it give the copy or variable value 
+
+
+ let myname = 'haziq'
+ let another = myname
+ console.log(another)
+ another = 'Ahmad'
+ console.log(myname)
+
+
+
+
+ //in heap it give the reference
+
+ let userone={
+    email: 'haziq@gmail.com',
+    cardId : 123
+ }
+
+ let usertwo = userone
+ usertwo.cardId = 456
+ console.log(userone.email)
