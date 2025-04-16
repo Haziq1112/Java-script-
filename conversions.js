@@ -31,3 +31,21 @@ let someumber =  33
  let stringNumber = String(someumber)
 
  console.log(typeof stringNumber)
+
+
+
+
+
+
+ // operations 
+
+ let value = 3
+ let negvalue = -value
+ console.log(negvalue) 
+
+
+ let star1 = "Haziq"
+ let str2 = "Ahmad"
+ let str3 = star1 + str2
+ console.log(str3)
+ //and other all are like +,-,/,*,%
